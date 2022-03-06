@@ -1,0 +1,23 @@
+{
+  "name": "discover-coffee-stores",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "preinstall": "npx npm-force-resolutions",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "airtable": "^0.11.1",
+    "classnames": "^2.3.1",
+    "next": "^12.0.7",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "swr": "^0.5.6",
+    "unsplash-js": "^7.0.11"
+  },
+  "resolutions": {
+    "node-fetch": "https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz"
+  }
+}
