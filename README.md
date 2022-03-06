@@ -24,7 +24,7 @@ You need to setup a few API keys for this project to be setup correctly otherwis
 
 - [Unsplash Access Key](https://unsplash.com/documentation)
 - [Airtable Base and API Key](https://www.airtable.com/api)
-- [Foursquare API Key](https://developer.foursquare.com/docs/migrate-to-newest-places-api-version#generating-api-keys)
+- [Geoapify API Key](https://apidocs.geoapify.com/docs/places/#about)
 
 For that, you can create a .env.local file in your project as [shown in docs](https://nextjs.org/docs/basic-features/environment-variables#loading-environment-variables) that will look like this:
 
@@ -37,17 +37,4 @@ NEXT_PUBLIC_FOURSQUARE_API_KEY=<REPLACE THIS>
 
 You can retrieve the above environment values by referring their docs linked above.
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
